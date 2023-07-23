@@ -73,7 +73,6 @@ export const fetchProdutos = createAsyncThunk<Produto[]>(
 
     const response: AxiosResponse<Produto[]> = await axios.get(
       `${config.API_URL}/v1/produto`
-      // "http://localhost:3333/v1/produto"
     );
 
     return response.data;
