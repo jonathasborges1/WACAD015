@@ -1,0 +1,22 @@
+video explicativo: https://youtu.be/wWi1FPvs76g
+repositorio backend :  https://github.com/jonathasborges1/WACAD015/tree/main/aula2/backend
+repositorio frontend : https://github.com/jonathasborges1/WACAD015/tree/main/aula2/frontendredux
+
+obs: antes de executar os microssevicos , suba os container em docker do mysql e phpmyadmin com o comando: "docker-compose up -d"
+obs: apos executar o comando docker, suba o backend com o comando: "yarn" (instalar pacote) em seguida "yarn start" (iniciar projeto) e acesse a app em "http://localhost:3333"
+obs: apos executar o backend, suba o frontend com o comando: "yarn" (instalar pacote) em seguida "yarn start" (iniciar projeto) e acesse a app em "http://localhost:3000"
+
+Usuario admin
+	- login: jbc@icomp.ufam.edu.br
+	- Senha: 123456
+
+Usuario comum
+	-Login: jonathasborges0@gmail.com
+	-Senha: 123456
+
+Para acessar o phpmyadmin : http://localhost:8080/
+Credenciais DO phpmyadmin
+	- Login: root
+	- Senha: admin
+
+
